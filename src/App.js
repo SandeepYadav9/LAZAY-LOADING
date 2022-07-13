@@ -8,10 +8,10 @@ const App = () => {
     <div>
       <h1>Lazy Loading !!</h1>
 
-      <Suspense fallback={ <div>Plz wait.... About Page is Loading</div> }>
+      <Suspense fallback={<div>Plz wait.... About Page is Loading</div>}>
         <About />
       </Suspense>
-      <Suspense fallback={ <div>Plz wait.... Friends Page is Loading</div> }>
+      <Suspense fallback={<div>Plz wait.... Friends Page is Loading</div>}>
         <Friends />
       </Suspense>
     </div>
